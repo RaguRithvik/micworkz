@@ -1,0 +1,522 @@
+01. Recent Booking
+
+{
+  "dataException": {
+    "err_code": 200,
+    "err_msg": "Data successfully fetched.!"
+  },
+  "data": {
+    "sales-data": [
+      {
+        "product-type": null,
+        "invoice-person": "Syed",
+        "invoice-value": 206.63,
+        "invoice-date": "2021.08.07",
+        "payment-amount": 206.63,
+        "payment-currency": "SGD",
+        "payment-vendor": "Card"
+      },
+      {
+        "product-type": null,
+        "invoice-person": "Syed",
+        "invoice-value": 206.63,
+        "invoice-date": "2021.08.07",
+        "payment-amount": 206.63,
+        "payment-currency": "SGD",
+        "payment-vendor": "Card"
+      },
+      {
+        "product-type": null,
+        "invoice-person": "Syed",
+        "invoice-value": 206.63,
+        "invoice-date": "2021.08.07",
+        "payment-amount": 206.63,
+        "payment-currency": "SGD",
+        "payment-vendor": "Card"
+      },
+      {
+        "product-type": null,
+        "invoice-person": "Syed",
+        "invoice-value": 206.63,
+        "invoice-date": "2021.08.07",
+        "payment-amount": 206.63,
+        "payment-currency": "SGD",
+        "payment-vendor": "Card"
+      }
+    ]
+  },
+  "requestData": null
+}
+
+02. Monthly
+
+{
+  "dataException": {
+    "err_code": 200,
+    "err_msg": "Data successfully fetched.!"
+  },
+  "data": {
+    "sales-data": {
+      "category-type": "MONTHLY",
+      "data": [
+        {
+          "sales-value": 0,
+          "date-value": "Jan 2021"
+        },
+        {
+          "sales-value": 0,
+          "date-value": "Feb 2021"
+        },
+        {
+          "sales-value": 0,
+          "date-value": "Mar 2021"
+        },
+        {
+          "sales-value": 0,
+          "date-value": "Apr 2021"
+        },
+        {
+          "sales-value": 0,
+          "date-value": "May 2021"
+        },
+        {
+          "sales-value": 0,
+          "date-value": "Jun 2021"
+        },
+        {
+          "sales-value": 0,
+          "date-value": "Jul 2021"
+        },
+        {
+          "sales-value": 0,
+          "date-value": "Aug 2021"
+        },
+        {
+          "sales-value": 0,
+          "date-value": "Sep 2021"
+        },
+        {
+          "sales-value": 0,
+          "date-value": "Oct 2021"
+        },
+        {
+          "sales-value": 0,
+          "date-value": "Nov 2021"
+        },
+        {
+          "sales-value": 0,
+          "date-value": "Dec 2021"
+        }
+      ],
+      "x-axis-data": {
+        "display-name": "Month",
+        "axis-value": [
+          "Jan 2021",
+          "Feb 2021",
+          "Mar 2021",
+          "Apr 2021",
+          "May 2021",
+          "Jun 2021",
+          "Jul 2021",
+          "Aug 2021",
+          "Sep 2021",
+          "Oct 2021",
+          "Nov 2021",
+          "Dec 2021"
+        ]
+      },
+      "y-axis-data": {
+        "display-name": "Value",
+        "axis-value": [
+          "0",
+          "2",
+          "4",
+          "6",
+          "8",
+          "10"
+        ]
+      }
+    }
+  },
+  "requestData": null
+}
+
+.03 year sale
+
+{
+  "dataException": {
+    "err_code": 200,
+    "err_msg": "Data successfully fetched.!"
+  },
+  "data": {
+    "sales-data": {
+      "category-type": "YEARLY",
+      "data": [
+        {
+          "sales-value": 0,
+          "date-value": "2021"
+        }
+      ],
+      "x-axis-data": {
+        "display-name": "Year",
+        "axis-value": [
+          "2021"
+        ]
+      },
+      "y-axis-data": {
+        "display-name": "Value",
+        "axis-value": [
+          "0",
+          "2",
+          "4",
+          "6",
+          "8",
+          "10"
+        ]
+      }
+    }
+  },
+  "requestData": null
+}
+
+04. Hours
+
+{
+  "dataException": {
+    "err_code": 200,
+    "err_msg": "Data successfully fetched.!"
+  },
+  "data": {
+    "sales-data": {
+      "category-type": "HOURLY",
+      "data": [
+        {
+          "sales-value": 0,
+          "date-value": "0"
+        },
+        {
+          "sales-value": 0,
+          "date-value": "1"
+        },
+        {
+          "sales-value": 0,
+          "date-value": "2"
+        },
+        {
+          "sales-value": 0,
+          "date-value": "3"
+        },
+        {
+          "sales-value": 0,
+          "date-value": "4"
+        },
+        {
+          "sales-value": 0,
+          "date-value": "5"
+        },
+        {
+          "sales-value": 0,
+          "date-value": "6"
+        },
+        {
+          "sales-value": 0,
+          "date-value": "7"
+        },
+        {
+          "sales-value": 0,
+          "date-value": "8"
+        },
+        {
+          "sales-value": 0,
+          "date-value": "9"
+        },
+        {
+          "sales-value": 0,
+          "date-value": "10"
+        },
+        {
+          "sales-value": 0,
+          "date-value": "11"
+        },
+        {
+          "sales-value": 0,
+          "date-value": "12"
+        },
+        {
+          "sales-value": 0,
+          "date-value": "13"
+        },
+        {
+          "sales-value": 0,
+          "date-value": "14"
+        },
+        {
+          "sales-value": 0,
+          "date-value": "15"
+        },
+        {
+          "sales-value": 0,
+          "date-value": "16"
+        },
+        {
+          "sales-value": 0,
+          "date-value": "17"
+        },
+        {
+          "sales-value": 0,
+          "date-value": "18"
+        },
+        {
+          "sales-value": 0,
+          "date-value": "19"
+        },
+        {
+          "sales-value": 0,
+          "date-value": "20"
+        },
+        {
+          "sales-value": 0,
+          "date-value": "21"
+        },
+        {
+          "sales-value": 0,
+          "date-value": "22"
+        },
+        {
+          "sales-value": 0,
+          "date-value": "23"
+        }
+      ],
+      "x-axis-data": {
+        "display-name": "Hour",
+        "axis-value": [
+          "0",
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8",
+          "9",
+          "10",
+          "11",
+          "12",
+          "13",
+          "14",
+          "15",
+          "16",
+          "17",
+          "18",
+          "19",
+          "20",
+          "21",
+          "22",
+          "23"
+        ]
+      },
+      "y-axis-data": {
+        "display-name": "Value",
+        "axis-value": [
+          "0",
+          "2",
+          "4",
+          "6",
+          "8",
+          "10"
+        ]
+      }
+    }
+  },
+  "requestData": null
+}
+
+05. daliy 
+
+{
+  "dataException": {
+    "err_code": 200,
+    "err_msg": "Data successfully fetched.!"
+  },
+  "data": {
+    "sales-data": {
+      "category-type": "DAILY",
+      "data": [
+        {
+          "sales-value": 0,
+          "date-value": "1"
+        },
+        {
+          "sales-value": 0,
+          "date-value": "2"
+        },
+        {
+          "sales-value": 0,
+          "date-value": "3"
+        },
+        {
+          "sales-value": 0,
+          "date-value": "4"
+        },
+        {
+          "sales-value": 0,
+          "date-value": "5"
+        },
+        {
+          "sales-value": 0,
+          "date-value": "6"
+        },
+        {
+          "sales-value": 0,
+          "date-value": "7"
+        },
+        {
+          "sales-value": 0,
+          "date-value": "8"
+        },
+        {
+          "sales-value": 0,
+          "date-value": "9"
+        },
+        {
+          "sales-value": 0,
+          "date-value": "10"
+        },
+        {
+          "sales-value": 0,
+          "date-value": "11"
+        },
+        {
+          "sales-value": 0,
+          "date-value": "12"
+        },
+        {
+          "sales-value": 0,
+          "date-value": "13"
+        },
+        {
+          "sales-value": 0,
+          "date-value": "14"
+        },
+        {
+          "sales-value": 0,
+          "date-value": "15"
+        },
+        {
+          "sales-value": 0,
+          "date-value": "16"
+        },
+        {
+          "sales-value": 0,
+          "date-value": "17"
+        },
+        {
+          "sales-value": 0,
+          "date-value": "18"
+        },
+        {
+          "sales-value": 0,
+          "date-value": "19"
+        },
+        {
+          "sales-value": 0,
+          "date-value": "20"
+        },
+        {
+          "sales-value": 0,
+          "date-value": "21"
+        },
+        {
+          "sales-value": 0,
+          "date-value": "22"
+        },
+        {
+          "sales-value": 0,
+          "date-value": "23"
+        },
+        {
+          "sales-value": 0,
+          "date-value": "24"
+        },
+        {
+          "sales-value": 0,
+          "date-value": "25"
+        },
+        {
+          "sales-value": 0,
+          "date-value": "26"
+        },
+        {
+          "sales-value": 0,
+          "date-value": "27"
+        },
+        {
+          "sales-value": 0,
+          "date-value": "28"
+        },
+        {
+          "sales-value": 0,
+          "date-value": "29"
+        },
+        {
+          "sales-value": 0,
+          "date-value": "30"
+        },
+        {
+          "sales-value": 0,
+          "date-value": "31"
+        }
+      ],
+      "x-axis-data": {
+        "display-name": "Day",
+        "axis-value": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8",
+          "9",
+          "10",
+          "11",
+          "12",
+          "13",
+          "14",
+          "15",
+          "16",
+          "17",
+          "18",
+          "19",
+          "20",
+          "21",
+          "22",
+          "23",
+          "24",
+          "25",
+          "26",
+          "27",
+          "28",
+          "29",
+          "30",
+          "31"
+        ]
+      },
+      "y-axis-data": {
+        "display-name": "Value",
+        "axis-value": [
+          "0",
+          "2",
+          "4",
+          "6",
+          "8",
+          "10"
+        ]
+      }
+    }
+  },
+  "requestData": null
+}
+
